@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Facebook, Twitter, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -64,7 +65,9 @@ const Index = () => {
             Join our community and enjoy exclusive benefits, including priority event bookings,
             extended borrowing periods, and access to special collections in our unique forest setting.
           </p>
-          <Button size="lg" variant="secondary">Join Now</Button>
+          <Link to="/membership">
+            <Button size="lg" variant="secondary">Join Now</Button>
+          </Link>
         </div>
       </section>
 

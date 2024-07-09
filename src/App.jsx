@@ -5,6 +5,7 @@ import { Home, Info, Calendar, Users, Mail } from "lucide-react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/navbar";
 import Index from "./pages/Index.jsx";
+import Membership from "./pages/Membership.jsx";
 const queryClient = new QueryClient();
 
 export const navItems = [
@@ -25,7 +26,7 @@ export const navItems = [
   },
   {
     title: "Membership",
-    to: "#membership",
+    to: "/membership",
     icon: <Users className="h-4 w-4" />,
   },
   {
@@ -44,6 +45,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Index />} />
+              <Route path="membership" element={<Membership />} />
             </Route>
           </Routes>
         </Router>
