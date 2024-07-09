@@ -6,22 +6,23 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/navbar";
 import Index from "./pages/Index.jsx";
 import Membership from "./pages/Membership.jsx";
+import About from "./pages/About.jsx";
 const queryClient = new QueryClient();
 
 export const navItems = [
   {
     title: "Home",
-    to: "#home",
+    to: "/",
     icon: <Home className="h-4 w-4" />,
   },
   {
     title: "About Us",
-    to: "#about",
+    to: "/about",
     icon: <Info className="h-4 w-4" />,
   },
   {
     title: "Events",
-    to: "#events",
+    to: "/#events",
     icon: <Calendar className="h-4 w-4" />,
   },
   {
@@ -31,7 +32,7 @@ export const navItems = [
   },
   {
     title: "Contact",
-    to: "#contact",
+    to: "/#contact",
     icon: <Mail className="h-4 w-4" />,
   },
 ];
@@ -46,6 +47,7 @@ const App = () => {
             <Route path="/" element={<Layout />}>
               <Route index element={<Index />} />
               <Route path="membership" element={<Membership />} />
+              <Route path="about" element={<About />} />
             </Route>
           </Routes>
         </Router>
