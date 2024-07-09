@@ -50,6 +50,37 @@ const About = () => {
         </ul>
       </div>
 
+      <div className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">Meet Oyvin: Our Bland Viking</h2>
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="md:w-1/2">
+            <Card>
+              <CardContent className="p-0">
+                <img 
+                  src="/mona-oyvin-patagonia.jpg" 
+                  alt="Mona and Oyvin driving in Patagonia" 
+                  className="w-full h-auto rounded-t-lg"
+                />
+              </CardContent>
+            </Card>
+          </div>
+          <div className="md:w-1/2">
+            <p className="text-lg mb-4">
+              Oyvin, our resident bland Viking, brings a unique flavor to Biblioteca Almirall. Despite his 
+              seemingly unremarkable demeanor, Oyvin's presence adds an unexpected twist to our library's atmosphere.
+            </p>
+            <p className="text-lg mb-4">
+              His journey from the fjords to the forests of Barcelona is as intriguing as it is unlikely. Oyvin's 
+              passion for books and his quiet dedication to our library's mission make him an indispensable part of our team.
+            </p>
+            <p className="text-lg">
+              Together, Mona and Oyvin embody the spirit of adventure and cultural fusion that defines 
+              Biblioteca Almirall, as evidenced by their memorable road trip through Patagonia.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div>
         <h2 className="text-2xl font-semibold mb-4">Mona's Message</h2>
         <blockquote className="text-lg italic border-l-4 border-primary pl-4 py-2 mb-4">
