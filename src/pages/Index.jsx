@@ -9,11 +9,11 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section id="home" className="relative h-[600px] flex items-center justify-center text-white">
-        <img src="/placeholder.svg" alt="Library" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/barcelona-forest-library.jpg" alt="Biblioteca Almirall in Barcelona Forest" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-5xl font-bold mb-4">Welcome to Biblioteca Almirall</h1>
-          <p className="text-xl mb-8">Your hub for knowledge and events</p>
+          <p className="text-xl mb-8">Your hub for knowledge and events in the heart of Barcelona's forest</p>
           <Button size="lg" className="bg-primary text-white hover:bg-primary/90">Explore More</Button>
         </div>
       </section>
@@ -27,11 +27,11 @@ const Index = () => {
               Biblioteca Almirall is more than just a library. We're a vibrant community space
               that combines the love for books with exciting events. Our dual purpose as a
               library and event venue makes us a unique hub for knowledge seekers and
-              cultural enthusiasts alike.
+              cultural enthusiasts alike, all set in the beautiful surroundings of Barcelona's forest.
             </p>
           </div>
           <div className="md:w-1/2">
-            <img src="/placeholder.svg" alt="Library Interior" className="rounded-lg shadow-lg" />
+            <img src="/barcelona-forest-library.jpg" alt="Biblioteca Almirall Interior" className="rounded-lg shadow-lg" />
           </div>
         </div>
       </section>
@@ -62,7 +62,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-4">Become a Member</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join our community and enjoy exclusive benefits, including priority event bookings,
-            extended borrowing periods, and access to special collections.
+            extended borrowing periods, and access to special collections in our unique forest setting.
           </p>
           <Button size="lg" variant="secondary">Join Now</Button>
         </div>
@@ -90,8 +90,8 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <h3 className="text-xl font-bold mb-2">Biblioteca Almirall</h3>
-              <p>123 Library Street, Booktown, BT 12345</p>
-              <p>Phone: (123) 456-7890</p>
+              <p>Forest Road 123, Barcelona, 08001</p>
+              <p>Phone: (34) 123-456-789</p>
               <p>Email: info@bibliotecaalmirall.com</p>
             </div>
             <div className="flex space-x-4">
@@ -113,17 +113,17 @@ const events = [
   {
     name: "Author Talk: Maria Garcia",
     date: "May 15, 2024",
-    description: "Join us for an evening with bestselling author Maria Garcia as she discusses her latest novel."
+    description: "Join us for an evening with bestselling author Maria Garcia as she discusses her latest novel in our forest amphitheater."
   },
   {
     name: "Poetry Slam Night",
     date: "May 22, 2024",
-    description: "Experience the power of spoken word at our monthly poetry slam event."
+    description: "Experience the power of spoken word at our monthly poetry slam event, set against the backdrop of the Barcelona forest."
   },
   {
-    name: "Children's Story Hour",
+    name: "Children's Nature Story Hour",
     date: "Every Saturday",
-    description: "Bring your little ones for an hour of enchanting stories and fun activities."
+    description: "Bring your little ones for an hour of enchanting stories and fun activities inspired by our forest surroundings."
   }
 ];
 
